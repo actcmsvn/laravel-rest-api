@@ -1,0 +1,22 @@
+{
+    "name": "actcmsvn/laravel-rest-api",
+    "description": "Powerful RestAPI plugin for Laravel framework",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.6.*|5.7.*|5.8.*|6.*|7.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Actcmsvn\\RestAPI\\": "src",
+            "Actcmsvn\\RestAPI\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Duc Trung",
+            "email": "actcms.work@gmail.com"
+        }
+    ]
+}
+
