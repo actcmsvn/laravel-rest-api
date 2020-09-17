@@ -43,7 +43,7 @@ class DummyUser extends ApiModel
      */
     public function posts()
     {
-        return $this->hasMany('Froiden\RestAPI\Tests\Models\DummyPost', 'user_id', 'id');
+        return $this->hasMany('Actcmsvn\RestAPI\Tests\Models\DummyPost', 'user_id', 'id');
     }
 
     /**
@@ -51,6 +51,6 @@ class DummyUser extends ApiModel
      */
     public function comments()
     {
-        return $this->hasMany('Froiden\RestAPI\Tests\Models\DummyComment', 'user_id', 'id');
+        return $this->hasMany('Actcmsvn\RestAPI\Tests\Models\DummyComment', 'user_id', 'id');
     }
 }
